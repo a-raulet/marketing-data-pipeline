@@ -1,0 +1,30 @@
+# Credentials
+credentials.json
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Poetry
+poetry.lock
+
+# dbt
+dbt_marketing/target/
+dbt_marketing/dbt_packages/
+dbt_marketing/logs/
+
+# Data
+data/raw/*.csv
+data/processed/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
