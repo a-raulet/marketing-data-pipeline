@@ -1,10 +1,14 @@
 # Credentials
 credentials.json
 .env
+*.json
+!dbt_project.json
+!package-lock.json
 
 # Python
 __pycache__/
 *.py[cod]
+*.pyc
 *$py.class
 .venv/
 venv/
@@ -13,9 +17,12 @@ venv/
 poetry.lock
 
 # dbt
+dbt_marketing/dbt_internal_packages/
 dbt_marketing/target/
 dbt_marketing/dbt_packages/
 dbt_marketing/logs/
+dbt_marketing/*.log
+logs/
 
 # Data
 data/raw/*.csv
@@ -28,3 +35,6 @@ data/processed/*.csv
 # OS
 .DS_Store
 Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
