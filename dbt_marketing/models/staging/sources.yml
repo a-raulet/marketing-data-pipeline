@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: marketing_raw
+    database: active-smile-479206-g4
+    schema: marketing_raw
+    tables:
+      - name: daily_performance
+        description: "Raw daily marketing performance data from all channels"
+        columns:
+          - name: date
+            description: "Date of performance (YYYY-MM-DD)"
+          - name: source
+            description: "Marketing channel/source"
+          - name: sessions
+            description: "Number of sessions"
+          - name: conversions
+            description: "Number of conversions"
+          - name: revenue
+            description: "Revenue generated (USD)"
+          - name: spend
+            description: "Marketing spend (USD)"
