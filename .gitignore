@@ -38,3 +38,8 @@ Thumbs.db
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Autres
+.streamlit/
+src/debug_bigquery.py
+src/test_setup.py
