@@ -105,7 +105,7 @@ dbt_marketing:
       keyfile: /chemin/vers/credentials.json
       threads: 4
       timeout_seconds: 300
-      location: EU
+      location: US
 ```
 
 ## Utilisation
