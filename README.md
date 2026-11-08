@@ -3,7 +3,7 @@
 **Business problem.** Marketing teams spread budget across paid search, paid social, LinkedIn and email, but spend, sessions and revenue live in separate exports. Without one daily view of ROAS, cost per conversion and conversion rate per channel, budget decisions rely on gut feeling.
 
 **Key result.** An end-to-end, reproducible pipeline: simulated daily data for 5 channels (Sep 1 – Nov 23, 2024, fixed seed) loaded into BigQuery, modeled with dbt into a staging view with ROAS, cost per conversion, conversion rate and weekly/monthly grains, and served in a filterable Streamlit dashboard. The data is synthetic, so the project demonstrates the pipeline, not market findings.
-TODO(arnaud): add one business insight from the dashboard if you want one, with the query or view it comes from.
+
 
 **Stack.** Python 3.13, Google BigQuery, dbt-core + dbt-bigquery, Streamlit, Plotly, pandas.
 
