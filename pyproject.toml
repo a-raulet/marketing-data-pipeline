@@ -3,7 +3,7 @@ name = "marketing-data-pipeline"
 version = "0.1.0"
 description = "Marketing analytics pipeline"
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Arnaud",email = "marketing-pipeline-dbt.kan0s@simplelogin.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.13"
